@@ -1,2 +1,14 @@
+.container
+{
+    display: grid;
+    grid-area: 200px;
+    grid-template-columns: 50px 50px;
+    /* grid-template-columns: repeat(2,minmax(50px , 50px)); */
+    /* grid-template-rows: 50px 50px; */
+    grid-template-rows: repeat(2,minmax(50px , 50px));
+}    
+    
+    
+   
 
 /* Your CSS Code here. */
